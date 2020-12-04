@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffffff;
+    font-size: 1.2vw;
+    font-family: Ubuntu, sans-serif;
+    -webkit-user-select: none;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 3vw;
+    background-color: rgba(131, 111, 111, 0.77);
+    backdrop-filter: blur(55px) saturate(180%);
+}
+
+footer {
+    margin-top: 10vh;
+    height: 40vh;
+    width: 100%;
+    background-color: #836F6FC4;
+}
+
+main {
+    margin-left: 9vw;
+    margin-right: 9vw;
+    padding-top: 2vw;
+    min-height: calc(90vh - 2vw);
+}
+
+img {
+    height: 100%;
+}
+
+header .nav-el {
+    float: left;
+    width: 5vw;
+    line-height: 3vw;
+    text-align: center;
+}
+
+.nav-el:hover {
+    cursor: pointer;
+    color: #5a4848;
+}
+
+.logo {
+    margin-left: 5.5vw;
+    margin-right: 10vw;
+    width: 10vw;
+    font-size: 1.3em;
+}
+
+.date {
+    margin-top: 2vw;
+    margin-left: -2vw;
+    color: #707070;
+}
+
+.photo-container {
+    display: table;
+}
+
+.photo {
+    float: left;
+    margin-top: 2vw;
+    padding: 0.15vw;
+    height: 15vw;
+}
+
+.add-area--wrapper {
+    background-color: #C9C9C9;
+}
+
+.add-photo--input {
+    position: absolute;
+    opacity: 0;
+}
+
+.add_photo--label {
+    display: inline-block;
+    margin: auto;
+    width: 11.5vw;
+    height: 100%;
+    background-color: white;
+}
+
+.add_photo--label:hover {
+    cursor: pointer;
+}
+
+
+.plus {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #C9C9C9;
+}
+
+.plus.horizontal-bock {
+    margin-top: -5.5vw;
+    width: 5.5vw;
+    height: 1.3vw;
+}
+
+.plus.vertical-bock {
+    width: 1.3vw;
+    height: 5.5vw;
+}
+

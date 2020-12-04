@@ -1,0 +1,1 @@
+This is prototype of the site for University
